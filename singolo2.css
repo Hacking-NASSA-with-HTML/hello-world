@@ -1,0 +1,458 @@
+/*will use this in future projects, it's too late now*/
+/* And never use
+.body {
+  display: flex;
+}*/
+
+/* body,
+header,
+main,
+footer,
+h1,
+h2,
+h3,
+div,
+p, ****** p better do not reset, in FFox it's getting worse**
+ul,
+li,
+button,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+} */
+
+/*improvements to 1 part*/
+
+.services__description {
+  margin: 21px 0 0 0px;
+  line-height: 30px;
+}
+
+.services__item__container:nth-child(1) {
+  margin: 0 0 61px -5.8px;
+}
+
+.services__item__container:nth-child(1) .service__item__pen__img {
+  margin: 4px 0px 0 -0.8px;
+  padding-top: 1px;
+}
+
+.services__item__container:nth-child(1) .service__title {
+  letter-spacing: -0.25px;
+  margin: 0 0 0 -2px;
+}
+
+.services__item__container:nth-child(1) .service__item__paragraph {
+  letter-spacing: -0.28px;
+  margin: 9px 0 0 -1.285px;
+  /* width: 220px; */
+  line-height: 22px;
+}
+
+.services__item__container:nth-child(2) {
+  margin: 0 0 61px -6px;
+}
+
+.services__item__container:nth-child(2) .service__item__bulb__img {
+  margin: 4.5px 0 0 0.5px;
+}
+
+.services__item__container:nth-child(2) .service__title {
+  letter-spacing: -0.2px;
+  margin: 0 0 0 0;
+}
+
+.services__item__container:nth-child(2) .service__item__paragraph {
+  letter-spacing: -0.28px;
+  margin: 9px 0 0 1px;
+  /* width: 220px; */
+  line-height: 22px;
+}
+
+.services__item__container:nth-child(3) {
+  margin: 0 -11.5px 61px 0;
+}
+
+.services__item__container:nth-child(3) .service__item__heart__img {
+  margin: 4.5px 0px 0 3px;
+}
+
+.services__item__container:nth-child(3) .service__title {
+  letter-spacing: -0.4px;
+  margin: 0 0 0 0;
+}
+
+.services__item__container:nth-child(3) .service__item__paragraph {
+  /* letter-spacing: -0.1842px; */
+  letter-spacing: -0.28px;
+  margin: 9px 0 0 -2px;
+  width: 220px;
+  line-height: 22px;
+}
+
+.services__item__container:nth-child(4) {
+  margin: 0 0 0 -5.5px;
+}
+
+.services__item__container:nth-child(4) .service__item__phone__img {
+  margin: 3px 0 0 -0.7625px;
+}
+
+.services__item__container:nth-child(4) .services__item__text__container {
+  margin: -0.5px 10px 0 27px;
+}
+
+.services__item__container:nth-child(4) .service__title {
+  letter-spacing: -0.4px;
+}
+
+.services__item__container:nth-child(4) .service__item__paragraph {
+  /* letter-spacing: -0.1842px; */
+  letter-spacing: -0.28px;
+  margin: 9px 0 0 -2px;
+  line-height: 22px;
+}
+
+.services__item__container:nth-child(5) {
+  margin: 0 0 0 -5px;
+}
+
+.services__item__container:nth-child(5) .service__item__support__img {
+  margin: 2.5px 0 0 5px;
+}
+
+.services__item__container:nth-child(5) .services__item__text__container {
+  margin: -0.5px 10px 0 27px;
+}
+
+.services__item__container:nth-child(5) .service__title {
+  letter-spacing: 0.02px;
+}
+
+.services__item__container:nth-child(5) .service__item__paragraph {
+  letter-spacing: -0.1845px;
+  margin-top: 9px;
+  margin-left: 4px;
+  line-height: 22px;
+}
+
+.services__item__container:nth-child(6) {
+  margin: 0 -11.5px 0 0;
+}
+
+.services__item__container:nth-child(6) .service__item__star__img {
+  margin: 2.5px 0 0 3px;
+}
+
+.services__item__container:nth-child(6) .services__item__text__container {
+  margin: -0.5px 10px 0 31.5px;
+}
+
+.services__item__container:nth-child(6) .service__title {
+  letter-spacing: -0.18px;
+  padding-left: 2px;
+}
+
+.services__item__container:nth-child(6) .service__item__paragraph {
+  /* letter-spacing: -0.1842px; */
+  letter-spacing: -0.1px;
+  margin: 9px 0 0 0;
+  width: 220px;
+  line-height: 22px;
+}
+
+.service__title {
+  font-weight: 900;
+}
+
+.kostylsForUpperRow {
+  margin-bottom: 61px;
+}
+
+/**************** The end of fixes from 1 part *************************************/
+
+/****************************************** Section  Portfolio *********************/
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  width: 1020px;
+  height: 864px;
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+
+.portfolio__title {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.h2__portfolio__title {
+  color: #666d89;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 0;
+  border: 0;
+  margin: 61px 0 0 40px;
+  letter-spacing: -0.2px;
+  /* line-height: 36px; */
+}
+
+.section__portfolio__description {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio__description__paragraph {
+  color: #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29px;
+  padding: 0;
+  border: 0;
+  margin: 19px 0 0 40px;
+  /* text-align: justify; */
+}
+
+.section__portfolio__tag__buttons {
+  display: flex;
+  width: 400px;
+  margin: 12px 0 0 41px;
+}
+
+.tag__button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: auto;
+  height: 21.5px;
+  border: 1px solid #666d89;
+  color: #767e9e;
+  font-size: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  background-color: #2d303a;
+  border: 1px solid #666d89;
+  border-radius: 5px;
+  margin: 0px 10.5px 0 0;
+  padding: 0px 5.5px 0 5.5px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.tag__button:nth-child(1) {
+  letter-spacing: 0.55px;
+}
+
+.tag__button:nth-child(3) {
+  letter-spacing: -0.1px;
+}
+
+.tag__button:nth-child(4) {
+  letter-spacing: 0px;
+  margin-left: 0px;
+}
+
+.tag__button:focus {
+  color: #dedede;
+  border: 1px solid #c5c5c5;
+}
+
+.tag__button:hover {
+  color: #dedede;
+  border: 1px solid #c5c5c5;
+}
+
+.portfolio__images__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 940px;
+  height: 601px;
+  list-style-type: none;
+  margin: 19px 0 0px 0;
+}
+
+.work__example {
+  display: block;
+  width: 220px;
+  height: 187px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.work__example:nth-child(4) {
+  margin-right: 0;
+}
+
+.work__example:nth-child(8) {
+  margin-right: 0;
+}
+
+.work__example:nth-child(12) {
+  margin-right: 0;
+}
+
+.work__example:hover {
+  box-shadow: 0 4px 20px 0 rgba(224, 211, 27, 0.918);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Feature to hide any images after 12 already added*/
+
+.work__example:nth-child(n+13) {
+  display: none;
+}
+
+/*********************************** The end of Section  PORTFOLIO *****************/
+
+/****************************************** Section  About Us **********************/
+
+.about__us {
+  display: flex;
+  flex-direction: column;
+  width: 1020px;
+  height: 728px;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+
+.about__us__title {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.h2__about__us__title {
+  color: #666d89;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 0;
+  border: 0;
+  margin: 60px 0 0 40px;
+  letter-spacing: -0.3px;
+}
+
+.about__us__description {
+  width: 940px;
+  height: auto;
+  margin: 1px 40px 0 40.5px;
+}
+
+.about__us__description__paragraph {
+  color: #767e9e;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  /* letter-spacing: 0.125px; */
+  text-align: justify;
+}
+
+.our__employees__block {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 940px;
+  height: auto;
+  margin: 27px 0 0 40px;
+}
+
+.employee__card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#employee2 {
+  margin: 0 21px 0 19px;
+}
+
+.employee__avatar {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.employee__name {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  margin: 18px 0 0 0;
+  color: #666d89;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 17px;
+  white-space: nowrap;
+  letter-spacing: -0.4px;
+}
+
+.employee__about {
+  padding: 0;
+  margin: 0;
+  margin: 10px 0 0 0;
+  width: 300px;
+  color: #767e9e;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  /*If there is now bellow property  murkup
+  crushes while zoom in less 100% on laptop*/
+  letter-spacing: -0.2px;
+  /* text-align: justify; */
+}
+
+.employee__socialnetworks__block {
+  display: flex;
+  justify-content: start;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 24px 0 0 1px;
+}
+
+.socialnetworks__item {
+  margin: 0;
+  padding: 0;
+  margin: 1px 8px 0 0;
+}
+
+.socialnetworks__link {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.socialnetwork__img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  opacity: 0.6;
+}
+
+.socialnetwork__img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: ease;
+}
+
+/*kostyls for section About Us*/
+.employee__card:nth-child(1) .employee__about {
+  /* It didn't work on this case, but sometimes works good*/
+  /* text-align: justify; */
+
+  letter-spacing: -0.07px;
+}
+
+.employee__card:nth-child(3) .employee__socialnetworks__block {
+  margin: 24px 0 0 0;
+}
+
+/*********************************** The end of Section  About Us ******************/
